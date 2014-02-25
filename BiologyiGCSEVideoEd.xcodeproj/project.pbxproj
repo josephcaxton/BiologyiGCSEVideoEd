@@ -1,0 +1,767 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CD02916118B758FA002EC7D8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD02916018B758FA002EC7D8 /* Foundation.framework */; };
+		CD02916318B758FA002EC7D8 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD02916218B758FA002EC7D8 /* CoreGraphics.framework */; };
+		CD02916518B758FA002EC7D8 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD02916418B758FA002EC7D8 /* UIKit.framework */; };
+		CD02916B18B758FA002EC7D8 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CD02916918B758FA002EC7D8 /* InfoPlist.strings */; };
+		CD02916D18B758FA002EC7D8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CD02916C18B758FA002EC7D8 /* main.m */; };
+		CD02917918B758FA002EC7D8 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CD02917818B758FA002EC7D8 /* Images.xcassets */; };
+		CD02918018B758FA002EC7D8 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD02917F18B758FA002EC7D8 /* XCTest.framework */; };
+		CD02918118B758FA002EC7D8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD02916018B758FA002EC7D8 /* Foundation.framework */; };
+		CD02918218B758FA002EC7D8 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD02916418B758FA002EC7D8 /* UIKit.framework */; };
+		CD02918A18B758FA002EC7D8 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CD02918818B758FA002EC7D8 /* InfoPlist.strings */; };
+		CD02918C18B758FA002EC7D8 /* BiologyiGCSEVideoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CD02918B18B758FA002EC7D8 /* BiologyiGCSEVideoTests.m */; };
+		CD02919718B76052002EC7D8 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = CD02919618B76052002EC7D8 /* MainWindow.xib */; };
+		CD02919A18B7607A002EC7D8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CD02919918B7607A002EC7D8 /* AppDelegate.m */; };
+		CD0291A318B7608C002EC7D8 /* TabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = CD02919C18B7608C002EC7D8 /* TabBar.m */; };
+		CD0291A418B7608C002EC7D8 /* ActivityIndicator.m in Sources */ = {isa = PBXBuildFile; fileRef = CD02919E18B7608C002EC7D8 /* ActivityIndicator.m */; };
+		CD0291A518B7608C002EC7D8 /* UnderlinedButton.m in Sources */ = {isa = PBXBuildFile; fileRef = CD0291A018B7608C002EC7D8 /* UnderlinedButton.m */; };
+		CD0291A618B7608C002EC7D8 /* TransparentToolBar.m in Sources */ = {isa = PBXBuildFile; fileRef = CD0291A218B7608C002EC7D8 /* TransparentToolBar.m */; };
+		CD0291B618B761BB002EC7D8 /* Start.m in Sources */ = {isa = PBXBuildFile; fileRef = CD0291A918B761BB002EC7D8 /* Start.m */; };
+		CD0291B718B761BB002EC7D8 /* FreeVideosClass.m in Sources */ = {isa = PBXBuildFile; fileRef = CD0291AB18B761BB002EC7D8 /* FreeVideosClass.m */; };
+		CD0291B818B761BB002EC7D8 /* VideoPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = CD0291AD18B761BB002EC7D8 /* VideoPlayer.m */; };
+		CD0291B918B761BB002EC7D8 /* Buy.m in Sources */ = {isa = PBXBuildFile; fileRef = CD0291AF18B761BB002EC7D8 /* Buy.m */; };
+		CD0291BA18B761BB002EC7D8 /* CustomStoreObserver.m in Sources */ = {isa = PBXBuildFile; fileRef = CD0291B118B761BB002EC7D8 /* CustomStoreObserver.m */; };
+		CD0291BB18B761BB002EC7D8 /* Trailers.m in Sources */ = {isa = PBXBuildFile; fileRef = CD0291B318B761BB002EC7D8 /* Trailers.m */; };
+		CD0291BC18B761BB002EC7D8 /* TrailerPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = CD0291B518B761BB002EC7D8 /* TrailerPlayer.m */; };
+		CD0291D018B761D9002EC7D8 /* LearnersCloudSamplesVideos.m in Sources */ = {isa = PBXBuildFile; fileRef = CD0291BF18B761D9002EC7D8 /* LearnersCloudSamplesVideos.m */; };
+		CD0291D118B761D9002EC7D8 /* AdminDashBoard.m in Sources */ = {isa = PBXBuildFile; fileRef = CD0291C118B761D9002EC7D8 /* AdminDashBoard.m */; };
+		CD0291D218B761D9002EC7D8 /* Report.m in Sources */ = {isa = PBXBuildFile; fileRef = CD0291C318B761D9002EC7D8 /* Report.m */; };
+		CD0291D318B761D9002EC7D8 /* Help.m in Sources */ = {isa = PBXBuildFile; fileRef = CD0291C518B761D9002EC7D8 /* Help.m */; };
+		CD0291D418B761D9002EC7D8 /* TermsAndConditions.m in Sources */ = {isa = PBXBuildFile; fileRef = CD0291C718B761D9002EC7D8 /* TermsAndConditions.m */; };
+		CD0291D518B761D9002EC7D8 /* HowtoUse.m in Sources */ = {isa = PBXBuildFile; fileRef = CD0291C918B761D9002EC7D8 /* HowtoUse.m */; };
+		CD0291D718B761D9002EC7D8 /* Coverage.m in Sources */ = {isa = PBXBuildFile; fileRef = CD0291CD18B761D9002EC7D8 /* Coverage.m */; };
+		CD0291D818B761D9002EC7D8 /* CoverageViewer.m in Sources */ = {isa = PBXBuildFile; fileRef = CD0291CF18B761D9002EC7D8 /* CoverageViewer.m */; };
+		CD0291DC18B761F2002EC7D8 /* ConfigObject.m in Sources */ = {isa = PBXBuildFile; fileRef = CD0291DB18B761F2002EC7D8 /* ConfigObject.m */; };
+		CD0291E018B76218002EC7D8 /* LearnersCloudTermsonapps.pdf in Resources */ = {isa = PBXBuildFile; fileRef = CD0291DE18B76218002EC7D8 /* LearnersCloudTermsonapps.pdf */; };
+		CD0291E118B76218002EC7D8 /* HowtouseVideoStreamer.pdf in Resources */ = {isa = PBXBuildFile; fileRef = CD0291DF18B76218002EC7D8 /* HowtouseVideoStreamer.pdf */; };
+		CD0291E418B76370002EC7D8 /* Biology-Edexcel-IGCSE.pdf in Resources */ = {isa = PBXBuildFile; fileRef = CD0291E218B76370002EC7D8 /* Biology-Edexcel-IGCSE.pdf */; };
+		CD0291E518B76370002EC7D8 /* Biology-Cambridge-IGCSE.pdf in Resources */ = {isa = PBXBuildFile; fileRef = CD0291E318B76370002EC7D8 /* Biology-Cambridge-IGCSE.pdf */; };
+		CD0291E818B76397002EC7D8 /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = CD0291E718B76397002EC7D8 /* Reachability.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		CD0291EA18B763BE002EC7D8 /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = CD0291E918B763BE002EC7D8 /* libsqlite3.dylib */; };
+		CD0291EC18B763CA002EC7D8 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD0291EB18B763CA002EC7D8 /* AVFoundation.framework */; };
+		CD0291EE18B763DE002EC7D8 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD0291ED18B763DE002EC7D8 /* CFNetwork.framework */; };
+		CD0291F018B763EB002EC7D8 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD0291EF18B763EB002EC7D8 /* MessageUI.framework */; };
+		CD0291F218B763F6002EC7D8 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD0291F118B763F6002EC7D8 /* StoreKit.framework */; };
+		CD0291F418B76408002EC7D8 /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD0291F318B76408002EC7D8 /* MediaPlayer.framework */; };
+		CD0291F618B76416002EC7D8 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD0291F518B76416002EC7D8 /* SystemConfiguration.framework */; };
+		CD0291FA18B772B5002EC7D8 /* libGoogleAnalytics.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CD0291F918B772B5002EC7D8 /* libGoogleAnalytics.a */; };
+		CDC09E0518BBA5E200CD3629 /* PopUpTableviewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CDC09E0418BBA5E200CD3629 /* PopUpTableviewViewController.m */; };
+		CDC09E1618BBA68E00CD3629 /* FBDialog.bundle in Resources */ = {isa = PBXBuildFile; fileRef = CDC09E0918BBA68E00CD3629 /* FBDialog.bundle */; };
+		CDC09E1718BBA68E00CD3629 /* libfacebook_ios_sdk.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CDC09E0F18BBA68E00CD3629 /* libfacebook_ios_sdk.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CD02918318B758FA002EC7D8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CD02915518B758FA002EC7D8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CD02915C18B758FA002EC7D8;
+			remoteInfo = BiologyiGCSEVideo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CD02915D18B758FA002EC7D8 /* Edexcel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Edexcel.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD02916018B758FA002EC7D8 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		CD02916218B758FA002EC7D8 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		CD02916418B758FA002EC7D8 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		CD02916818B758FA002EC7D8 /* BiologyiGCSEVideoEd-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BiologyiGCSEVideoEd-Info.plist"; sourceTree = "<group>"; };
+		CD02916A18B758FA002EC7D8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		CD02916C18B758FA002EC7D8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CD02916E18B758FA002EC7D8 /* BiologyiGCSEVideoEd-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BiologyiGCSEVideoEd-Prefix.pch"; sourceTree = "<group>"; };
+		CD02917818B758FA002EC7D8 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		CD02917E18B758FA002EC7D8 /* BiologyiGCSEVideoEdTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BiologyiGCSEVideoEdTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD02917F18B758FA002EC7D8 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		CD02918718B758FA002EC7D8 /* BiologyiGCSEVideoEdTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BiologyiGCSEVideoEdTests-Info.plist"; sourceTree = "<group>"; };
+		CD02918918B758FA002EC7D8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		CD02918B18B758FA002EC7D8 /* BiologyiGCSEVideoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BiologyiGCSEVideoTests.m; sourceTree = "<group>"; };
+		CD02919618B76052002EC7D8 /* MainWindow.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainWindow.xib; sourceTree = "<group>"; };
+		CD02919818B7607A002EC7D8 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CD02919918B7607A002EC7D8 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CD02919B18B7608C002EC7D8 /* TabBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TabBar.h; sourceTree = "<group>"; };
+		CD02919C18B7608C002EC7D8 /* TabBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TabBar.m; sourceTree = "<group>"; };
+		CD02919D18B7608C002EC7D8 /* ActivityIndicator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ActivityIndicator.h; sourceTree = "<group>"; };
+		CD02919E18B7608C002EC7D8 /* ActivityIndicator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ActivityIndicator.m; sourceTree = "<group>"; };
+		CD02919F18B7608C002EC7D8 /* UnderlinedButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UnderlinedButton.h; sourceTree = "<group>"; };
+		CD0291A018B7608C002EC7D8 /* UnderlinedButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UnderlinedButton.m; sourceTree = "<group>"; };
+		CD0291A118B7608C002EC7D8 /* TransparentToolBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TransparentToolBar.h; sourceTree = "<group>"; };
+		CD0291A218B7608C002EC7D8 /* TransparentToolBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TransparentToolBar.m; sourceTree = "<group>"; };
+		CD0291A818B761BB002EC7D8 /* Start.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Start.h; sourceTree = "<group>"; };
+		CD0291A918B761BB002EC7D8 /* Start.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Start.m; sourceTree = "<group>"; };
+		CD0291AA18B761BB002EC7D8 /* FreeVideosClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FreeVideosClass.h; sourceTree = "<group>"; };
+		CD0291AB18B761BB002EC7D8 /* FreeVideosClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FreeVideosClass.m; sourceTree = "<group>"; };
+		CD0291AC18B761BB002EC7D8 /* VideoPlayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VideoPlayer.h; sourceTree = "<group>"; };
+		CD0291AD18B761BB002EC7D8 /* VideoPlayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VideoPlayer.m; sourceTree = "<group>"; };
+		CD0291AE18B761BB002EC7D8 /* Buy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Buy.h; sourceTree = "<group>"; };
+		CD0291AF18B761BB002EC7D8 /* Buy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Buy.m; sourceTree = "<group>"; };
+		CD0291B018B761BB002EC7D8 /* CustomStoreObserver.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomStoreObserver.h; sourceTree = "<group>"; };
+		CD0291B118B761BB002EC7D8 /* CustomStoreObserver.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomStoreObserver.m; sourceTree = "<group>"; };
+		CD0291B218B761BB002EC7D8 /* Trailers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Trailers.h; sourceTree = "<group>"; };
+		CD0291B318B761BB002EC7D8 /* Trailers.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Trailers.m; sourceTree = "<group>"; };
+		CD0291B418B761BB002EC7D8 /* TrailerPlayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TrailerPlayer.h; sourceTree = "<group>"; };
+		CD0291B518B761BB002EC7D8 /* TrailerPlayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TrailerPlayer.m; sourceTree = "<group>"; };
+		CD0291BE18B761D9002EC7D8 /* LearnersCloudSamplesVideos.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LearnersCloudSamplesVideos.h; sourceTree = "<group>"; };
+		CD0291BF18B761D9002EC7D8 /* LearnersCloudSamplesVideos.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LearnersCloudSamplesVideos.m; sourceTree = "<group>"; };
+		CD0291C018B761D9002EC7D8 /* AdminDashBoard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AdminDashBoard.h; sourceTree = "<group>"; };
+		CD0291C118B761D9002EC7D8 /* AdminDashBoard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AdminDashBoard.m; sourceTree = "<group>"; };
+		CD0291C218B761D9002EC7D8 /* Report.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Report.h; sourceTree = "<group>"; };
+		CD0291C318B761D9002EC7D8 /* Report.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Report.m; sourceTree = "<group>"; };
+		CD0291C418B761D9002EC7D8 /* Help.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Help.h; sourceTree = "<group>"; };
+		CD0291C518B761D9002EC7D8 /* Help.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Help.m; sourceTree = "<group>"; };
+		CD0291C618B761D9002EC7D8 /* TermsAndConditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TermsAndConditions.h; sourceTree = "<group>"; };
+		CD0291C718B761D9002EC7D8 /* TermsAndConditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TermsAndConditions.m; sourceTree = "<group>"; };
+		CD0291C818B761D9002EC7D8 /* HowtoUse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HowtoUse.h; sourceTree = "<group>"; };
+		CD0291C918B761D9002EC7D8 /* HowtoUse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HowtoUse.m; sourceTree = "<group>"; };
+		CD0291CC18B761D9002EC7D8 /* Coverage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Coverage.h; sourceTree = "<group>"; };
+		CD0291CD18B761D9002EC7D8 /* Coverage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Coverage.m; sourceTree = "<group>"; };
+		CD0291CE18B761D9002EC7D8 /* CoverageViewer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoverageViewer.h; sourceTree = "<group>"; };
+		CD0291CF18B761D9002EC7D8 /* CoverageViewer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CoverageViewer.m; sourceTree = "<group>"; };
+		CD0291DA18B761F2002EC7D8 /* ConfigObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConfigObject.h; sourceTree = "<group>"; };
+		CD0291DB18B761F2002EC7D8 /* ConfigObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ConfigObject.m; sourceTree = "<group>"; };
+		CD0291DE18B76218002EC7D8 /* LearnersCloudTermsonapps.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = LearnersCloudTermsonapps.pdf; sourceTree = "<group>"; };
+		CD0291DF18B76218002EC7D8 /* HowtouseVideoStreamer.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = HowtouseVideoStreamer.pdf; sourceTree = "<group>"; };
+		CD0291E218B76370002EC7D8 /* Biology-Edexcel-IGCSE.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Biology-Edexcel-IGCSE.pdf"; sourceTree = "<group>"; };
+		CD0291E318B76370002EC7D8 /* Biology-Cambridge-IGCSE.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Biology-Cambridge-IGCSE.pdf"; sourceTree = "<group>"; };
+		CD0291E618B76397002EC7D8 /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
+		CD0291E718B76397002EC7D8 /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
+		CD0291E918B763BE002EC7D8 /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
+		CD0291EB18B763CA002EC7D8 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		CD0291ED18B763DE002EC7D8 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		CD0291EF18B763EB002EC7D8 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		CD0291F118B763F6002EC7D8 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		CD0291F318B76408002EC7D8 /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
+		CD0291F518B76416002EC7D8 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		CD0291F818B772A9002EC7D8 /* GANTracker.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GANTracker.h; sourceTree = "<group>"; };
+		CD0291F918B772B5002EC7D8 /* libGoogleAnalytics.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libGoogleAnalytics.a; sourceTree = "<group>"; };
+		CDC09E0318BBA5E200CD3629 /* PopUpTableviewViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PopUpTableviewViewController.h; sourceTree = "<group>"; };
+		CDC09E0418BBA5E200CD3629 /* PopUpTableviewViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PopUpTableviewViewController.m; sourceTree = "<group>"; };
+		CDC09E0718BBA68E00CD3629 /* Facebook.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Facebook.h; sourceTree = "<group>"; };
+		CDC09E0818BBA68E00CD3629 /* FBConnect.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBConnect.h; sourceTree = "<group>"; };
+		CDC09E0918BBA68E00CD3629 /* FBDialog.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = FBDialog.bundle; sourceTree = "<group>"; };
+		CDC09E0A18BBA68E00CD3629 /* FBDialog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBDialog.h; sourceTree = "<group>"; };
+		CDC09E0B18BBA68E00CD3629 /* FBFrictionlessRequestSettings.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBFrictionlessRequestSettings.h; sourceTree = "<group>"; };
+		CDC09E0C18BBA68E00CD3629 /* FBLoginDialog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBLoginDialog.h; sourceTree = "<group>"; };
+		CDC09E0D18BBA68E00CD3629 /* FBRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBRequest.h; sourceTree = "<group>"; };
+		CDC09E0E18BBA68E00CD3629 /* JSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSON.h; sourceTree = "<group>"; };
+		CDC09E0F18BBA68E00CD3629 /* libfacebook_ios_sdk.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libfacebook_ios_sdk.a; sourceTree = "<group>"; };
+		CDC09E1018BBA68E00CD3629 /* NSObject+SBJSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+SBJSON.h"; sourceTree = "<group>"; };
+		CDC09E1118BBA68E00CD3629 /* NSString+SBJSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+SBJSON.h"; sourceTree = "<group>"; };
+		CDC09E1218BBA68E00CD3629 /* SBJSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJSON.h; sourceTree = "<group>"; };
+		CDC09E1318BBA68E00CD3629 /* SBJsonBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonBase.h; sourceTree = "<group>"; };
+		CDC09E1418BBA68E00CD3629 /* SBJsonParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonParser.h; sourceTree = "<group>"; };
+		CDC09E1518BBA68E00CD3629 /* SBJsonWriter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonWriter.h; sourceTree = "<group>"; };
+		CDFEE36318BBE3B000B02235 /* BiologyiGCSEVideoEd.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = BiologyiGCSEVideoEd.entitlements; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CD02915A18B758FA002EC7D8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD02916318B758FA002EC7D8 /* CoreGraphics.framework in Frameworks */,
+				CD0291F618B76416002EC7D8 /* SystemConfiguration.framework in Frameworks */,
+				CD0291F418B76408002EC7D8 /* MediaPlayer.framework in Frameworks */,
+				CD0291F218B763F6002EC7D8 /* StoreKit.framework in Frameworks */,
+				CDC09E1718BBA68E00CD3629 /* libfacebook_ios_sdk.a in Frameworks */,
+				CD0291F018B763EB002EC7D8 /* MessageUI.framework in Frameworks */,
+				CD0291EE18B763DE002EC7D8 /* CFNetwork.framework in Frameworks */,
+				CD0291EC18B763CA002EC7D8 /* AVFoundation.framework in Frameworks */,
+				CD0291EA18B763BE002EC7D8 /* libsqlite3.dylib in Frameworks */,
+				CD02916518B758FA002EC7D8 /* UIKit.framework in Frameworks */,
+				CD0291FA18B772B5002EC7D8 /* libGoogleAnalytics.a in Frameworks */,
+				CD02916118B758FA002EC7D8 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD02917B18B758FA002EC7D8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD02918018B758FA002EC7D8 /* XCTest.framework in Frameworks */,
+				CD02918218B758FA002EC7D8 /* UIKit.framework in Frameworks */,
+				CD02918118B758FA002EC7D8 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CD02915418B758FA002EC7D8 = {
+			isa = PBXGroup;
+			children = (
+				CDFEE36318BBE3B000B02235 /* BiologyiGCSEVideoEd.entitlements */,
+				CDC09E0618BBA66B00CD3629 /* facebook-ios-sdk */,
+				CD0291F718B77291002EC7D8 /* Analytics */,
+				CD0291DD18B7620A002EC7D8 /* pdfs */,
+				CD0291D918B761E3002EC7D8 /* Data Models */,
+				CD0291BD18B761C6002EC7D8 /* Classes */,
+				CD0291A718B761A7002EC7D8 /* ClientSideClasses */,
+				CD02919518B75FC7002EC7D8 /* Main Window */,
+				CD02916618B758FA002EC7D8 /* BiologyiGCSEVideo */,
+				CD02918518B758FA002EC7D8 /* BiologyiGCSEVideoTests */,
+				CD02915F18B758FA002EC7D8 /* Frameworks */,
+				CD02915E18B758FA002EC7D8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CD02915E18B758FA002EC7D8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CD02915D18B758FA002EC7D8 /* Edexcel.app */,
+				CD02917E18B758FA002EC7D8 /* BiologyiGCSEVideoEdTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CD02915F18B758FA002EC7D8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CD0291F518B76416002EC7D8 /* SystemConfiguration.framework */,
+				CD0291F318B76408002EC7D8 /* MediaPlayer.framework */,
+				CD0291F118B763F6002EC7D8 /* StoreKit.framework */,
+				CD0291EF18B763EB002EC7D8 /* MessageUI.framework */,
+				CD0291ED18B763DE002EC7D8 /* CFNetwork.framework */,
+				CD0291EB18B763CA002EC7D8 /* AVFoundation.framework */,
+				CD0291E918B763BE002EC7D8 /* libsqlite3.dylib */,
+				CD0291E618B76397002EC7D8 /* Reachability.h */,
+				CD0291E718B76397002EC7D8 /* Reachability.m */,
+				CD02916018B758FA002EC7D8 /* Foundation.framework */,
+				CD02916218B758FA002EC7D8 /* CoreGraphics.framework */,
+				CD02916418B758FA002EC7D8 /* UIKit.framework */,
+				CD02917F18B758FA002EC7D8 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CD02916618B758FA002EC7D8 /* BiologyiGCSEVideo */ = {
+			isa = PBXGroup;
+			children = (
+				CD02917818B758FA002EC7D8 /* Images.xcassets */,
+				CD02916718B758FA002EC7D8 /* Supporting Files */,
+			);
+			path = BiologyiGCSEVideo;
+			sourceTree = "<group>";
+		};
+		CD02916718B758FA002EC7D8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CD02916818B758FA002EC7D8 /* BiologyiGCSEVideoEd-Info.plist */,
+				CD02916918B758FA002EC7D8 /* InfoPlist.strings */,
+				CD02916C18B758FA002EC7D8 /* main.m */,
+				CD02916E18B758FA002EC7D8 /* BiologyiGCSEVideoEd-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CD02918518B758FA002EC7D8 /* BiologyiGCSEVideoTests */ = {
+			isa = PBXGroup;
+			children = (
+				CD02918B18B758FA002EC7D8 /* BiologyiGCSEVideoTests.m */,
+				CD02918618B758FA002EC7D8 /* Supporting Files */,
+			);
+			path = BiologyiGCSEVideoTests;
+			sourceTree = "<group>";
+		};
+		CD02918618B758FA002EC7D8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CD02918718B758FA002EC7D8 /* BiologyiGCSEVideoEdTests-Info.plist */,
+				CD02918818B758FA002EC7D8 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CD02919518B75FC7002EC7D8 /* Main Window */ = {
+			isa = PBXGroup;
+			children = (
+				CD02919818B7607A002EC7D8 /* AppDelegate.h */,
+				CD02919918B7607A002EC7D8 /* AppDelegate.m */,
+				CD02919B18B7608C002EC7D8 /* TabBar.h */,
+				CD02919C18B7608C002EC7D8 /* TabBar.m */,
+				CD02919D18B7608C002EC7D8 /* ActivityIndicator.h */,
+				CD02919E18B7608C002EC7D8 /* ActivityIndicator.m */,
+				CD02919F18B7608C002EC7D8 /* UnderlinedButton.h */,
+				CD0291A018B7608C002EC7D8 /* UnderlinedButton.m */,
+				CD0291A118B7608C002EC7D8 /* TransparentToolBar.h */,
+				CD0291A218B7608C002EC7D8 /* TransparentToolBar.m */,
+				CD02919618B76052002EC7D8 /* MainWindow.xib */,
+			);
+			name = "Main Window";
+			sourceTree = "<group>";
+		};
+		CD0291A718B761A7002EC7D8 /* ClientSideClasses */ = {
+			isa = PBXGroup;
+			children = (
+				CD0291A818B761BB002EC7D8 /* Start.h */,
+				CD0291A918B761BB002EC7D8 /* Start.m */,
+				CD0291AA18B761BB002EC7D8 /* FreeVideosClass.h */,
+				CD0291AB18B761BB002EC7D8 /* FreeVideosClass.m */,
+				CD0291AC18B761BB002EC7D8 /* VideoPlayer.h */,
+				CD0291AD18B761BB002EC7D8 /* VideoPlayer.m */,
+				CD0291AE18B761BB002EC7D8 /* Buy.h */,
+				CD0291AF18B761BB002EC7D8 /* Buy.m */,
+				CD0291B018B761BB002EC7D8 /* CustomStoreObserver.h */,
+				CD0291B118B761BB002EC7D8 /* CustomStoreObserver.m */,
+				CD0291B218B761BB002EC7D8 /* Trailers.h */,
+				CD0291B318B761BB002EC7D8 /* Trailers.m */,
+				CD0291B418B761BB002EC7D8 /* TrailerPlayer.h */,
+				CD0291B518B761BB002EC7D8 /* TrailerPlayer.m */,
+			);
+			name = ClientSideClasses;
+			sourceTree = "<group>";
+		};
+		CD0291BD18B761C6002EC7D8 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				CD0291BE18B761D9002EC7D8 /* LearnersCloudSamplesVideos.h */,
+				CD0291BF18B761D9002EC7D8 /* LearnersCloudSamplesVideos.m */,
+				CD0291C018B761D9002EC7D8 /* AdminDashBoard.h */,
+				CD0291C118B761D9002EC7D8 /* AdminDashBoard.m */,
+				CD0291C218B761D9002EC7D8 /* Report.h */,
+				CD0291C318B761D9002EC7D8 /* Report.m */,
+				CD0291C418B761D9002EC7D8 /* Help.h */,
+				CD0291C518B761D9002EC7D8 /* Help.m */,
+				CD0291C618B761D9002EC7D8 /* TermsAndConditions.h */,
+				CD0291C718B761D9002EC7D8 /* TermsAndConditions.m */,
+				CD0291C818B761D9002EC7D8 /* HowtoUse.h */,
+				CD0291C918B761D9002EC7D8 /* HowtoUse.m */,
+				CDC09E0318BBA5E200CD3629 /* PopUpTableviewViewController.h */,
+				CDC09E0418BBA5E200CD3629 /* PopUpTableviewViewController.m */,
+				CD0291CC18B761D9002EC7D8 /* Coverage.h */,
+				CD0291CD18B761D9002EC7D8 /* Coverage.m */,
+				CD0291CE18B761D9002EC7D8 /* CoverageViewer.h */,
+				CD0291CF18B761D9002EC7D8 /* CoverageViewer.m */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		CD0291D918B761E3002EC7D8 /* Data Models */ = {
+			isa = PBXGroup;
+			children = (
+				CD0291DA18B761F2002EC7D8 /* ConfigObject.h */,
+				CD0291DB18B761F2002EC7D8 /* ConfigObject.m */,
+			);
+			name = "Data Models";
+			sourceTree = "<group>";
+		};
+		CD0291DD18B7620A002EC7D8 /* pdfs */ = {
+			isa = PBXGroup;
+			children = (
+				CD0291E218B76370002EC7D8 /* Biology-Edexcel-IGCSE.pdf */,
+				CD0291E318B76370002EC7D8 /* Biology-Cambridge-IGCSE.pdf */,
+				CD0291DE18B76218002EC7D8 /* LearnersCloudTermsonapps.pdf */,
+				CD0291DF18B76218002EC7D8 /* HowtouseVideoStreamer.pdf */,
+			);
+			name = pdfs;
+			sourceTree = "<group>";
+		};
+		CD0291F718B77291002EC7D8 /* Analytics */ = {
+			isa = PBXGroup;
+			children = (
+				CD0291F818B772A9002EC7D8 /* GANTracker.h */,
+				CD0291F918B772B5002EC7D8 /* libGoogleAnalytics.a */,
+			);
+			name = Analytics;
+			sourceTree = "<group>";
+		};
+		CDC09E0618BBA66B00CD3629 /* facebook-ios-sdk */ = {
+			isa = PBXGroup;
+			children = (
+				CDC09E0718BBA68E00CD3629 /* Facebook.h */,
+				CDC09E0818BBA68E00CD3629 /* FBConnect.h */,
+				CDC09E0918BBA68E00CD3629 /* FBDialog.bundle */,
+				CDC09E0A18BBA68E00CD3629 /* FBDialog.h */,
+				CDC09E0B18BBA68E00CD3629 /* FBFrictionlessRequestSettings.h */,
+				CDC09E0C18BBA68E00CD3629 /* FBLoginDialog.h */,
+				CDC09E0D18BBA68E00CD3629 /* FBRequest.h */,
+				CDC09E0E18BBA68E00CD3629 /* JSON.h */,
+				CDC09E0F18BBA68E00CD3629 /* libfacebook_ios_sdk.a */,
+				CDC09E1018BBA68E00CD3629 /* NSObject+SBJSON.h */,
+				CDC09E1118BBA68E00CD3629 /* NSString+SBJSON.h */,
+				CDC09E1218BBA68E00CD3629 /* SBJSON.h */,
+				CDC09E1318BBA68E00CD3629 /* SBJsonBase.h */,
+				CDC09E1418BBA68E00CD3629 /* SBJsonParser.h */,
+				CDC09E1518BBA68E00CD3629 /* SBJsonWriter.h */,
+			);
+			name = "facebook-ios-sdk";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CD02915C18B758FA002EC7D8 /* BiologyiGCSEVideoEd */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CD02918F18B758FA002EC7D8 /* Build configuration list for PBXNativeTarget "BiologyiGCSEVideoEd" */;
+			buildPhases = (
+				CD02915918B758FA002EC7D8 /* Sources */,
+				CD02915A18B758FA002EC7D8 /* Frameworks */,
+				CD02915B18B758FA002EC7D8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BiologyiGCSEVideoEd;
+			productName = BiologyiGCSEVideo;
+			productReference = CD02915D18B758FA002EC7D8 /* Edexcel.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CD02917D18B758FA002EC7D8 /* BiologyiGCSEVideoEdTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CD02919218B758FA002EC7D8 /* Build configuration list for PBXNativeTarget "BiologyiGCSEVideoEdTests" */;
+			buildPhases = (
+				CD02917A18B758FA002EC7D8 /* Sources */,
+				CD02917B18B758FA002EC7D8 /* Frameworks */,
+				CD02917C18B758FA002EC7D8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CD02918418B758FA002EC7D8 /* PBXTargetDependency */,
+			);
+			name = BiologyiGCSEVideoEdTests;
+			productName = BiologyiGCSEVideoTests;
+			productReference = CD02917E18B758FA002EC7D8 /* BiologyiGCSEVideoEdTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CD02915518B758FA002EC7D8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = LearnersCloud;
+				TargetAttributes = {
+					CD02915C18B758FA002EC7D8 = {
+						DevelopmentTeam = 9RNCM436XC;
+						SystemCapabilities = {
+							com.apple.iCloud = {
+								enabled = 1;
+							};
+						};
+					};
+					CD02917D18B758FA002EC7D8 = {
+						TestTargetID = CD02915C18B758FA002EC7D8;
+					};
+				};
+			};
+			buildConfigurationList = CD02915818B758FA002EC7D8 /* Build configuration list for PBXProject "BiologyiGCSEVideoEd" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CD02915418B758FA002EC7D8;
+			productRefGroup = CD02915E18B758FA002EC7D8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CD02915C18B758FA002EC7D8 /* BiologyiGCSEVideoEd */,
+				CD02917D18B758FA002EC7D8 /* BiologyiGCSEVideoEdTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CD02915B18B758FA002EC7D8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD02917918B758FA002EC7D8 /* Images.xcassets in Resources */,
+				CD02916B18B758FA002EC7D8 /* InfoPlist.strings in Resources */,
+				CD0291E518B76370002EC7D8 /* Biology-Cambridge-IGCSE.pdf in Resources */,
+				CD0291E118B76218002EC7D8 /* HowtouseVideoStreamer.pdf in Resources */,
+				CD02919718B76052002EC7D8 /* MainWindow.xib in Resources */,
+				CD0291E018B76218002EC7D8 /* LearnersCloudTermsonapps.pdf in Resources */,
+				CD0291E418B76370002EC7D8 /* Biology-Edexcel-IGCSE.pdf in Resources */,
+				CDC09E1618BBA68E00CD3629 /* FBDialog.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD02917C18B758FA002EC7D8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD02918A18B758FA002EC7D8 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CD02915918B758FA002EC7D8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD02916D18B758FA002EC7D8 /* main.m in Sources */,
+				CD0291B618B761BB002EC7D8 /* Start.m in Sources */,
+				CD0291B818B761BB002EC7D8 /* VideoPlayer.m in Sources */,
+				CD0291D018B761D9002EC7D8 /* LearnersCloudSamplesVideos.m in Sources */,
+				CD0291D518B761D9002EC7D8 /* HowtoUse.m in Sources */,
+				CD0291BB18B761BB002EC7D8 /* Trailers.m in Sources */,
+				CD02919A18B7607A002EC7D8 /* AppDelegate.m in Sources */,
+				CDC09E0518BBA5E200CD3629 /* PopUpTableviewViewController.m in Sources */,
+				CD0291BA18B761BB002EC7D8 /* CustomStoreObserver.m in Sources */,
+				CD0291D818B761D9002EC7D8 /* CoverageViewer.m in Sources */,
+				CD0291E818B76397002EC7D8 /* Reachability.m in Sources */,
+				CD0291D418B761D9002EC7D8 /* TermsAndConditions.m in Sources */,
+				CD0291D118B761D9002EC7D8 /* AdminDashBoard.m in Sources */,
+				CD0291A518B7608C002EC7D8 /* UnderlinedButton.m in Sources */,
+				CD0291DC18B761F2002EC7D8 /* ConfigObject.m in Sources */,
+				CD0291A418B7608C002EC7D8 /* ActivityIndicator.m in Sources */,
+				CD0291B918B761BB002EC7D8 /* Buy.m in Sources */,
+				CD0291A318B7608C002EC7D8 /* TabBar.m in Sources */,
+				CD0291D318B761D9002EC7D8 /* Help.m in Sources */,
+				CD0291B718B761BB002EC7D8 /* FreeVideosClass.m in Sources */,
+				CD0291BC18B761BB002EC7D8 /* TrailerPlayer.m in Sources */,
+				CD0291D718B761D9002EC7D8 /* Coverage.m in Sources */,
+				CD0291A618B7608C002EC7D8 /* TransparentToolBar.m in Sources */,
+				CD0291D218B761D9002EC7D8 /* Report.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD02917A18B758FA002EC7D8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD02918C18B758FA002EC7D8 /* BiologyiGCSEVideoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CD02918418B758FA002EC7D8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CD02915C18B758FA002EC7D8 /* BiologyiGCSEVideoEd */;
+			targetProxy = CD02918318B758FA002EC7D8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CD02916918B758FA002EC7D8 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CD02916A18B758FA002EC7D8 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		CD02918818B758FA002EC7D8 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CD02918918B758FA002EC7D8 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CD02918D18B758FA002EC7D8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		CD02918E18B758FA002EC7D8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CD02919018B758FA002EC7D8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_ENTITLEMENTS = BiologyiGCSEVideoEd.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BiologyiGCSEVideo/BiologyiGCSEVideoEd-Prefix.pch";
+				INFOPLIST_FILE = "BiologyiGCSEVideo/BiologyiGCSEVideoEd-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					/Users/edit/Documents/Apps/BiologyiGCSEVideo,
+				);
+				PRODUCT_NAME = Edexcel;
+				PROVISIONING_PROFILE = "E566A1D5-ECDE-4AD5-8625-97AEC7DEF3F8";
+				TARGETED_DEVICE_FAMILY = 2;
+				VALID_ARCHS = armv7;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		CD02919118B758FA002EC7D8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_ENTITLEMENTS = BiologyiGCSEVideoEd.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BiologyiGCSEVideo/BiologyiGCSEVideoEd-Prefix.pch";
+				INFOPLIST_FILE = "BiologyiGCSEVideo/BiologyiGCSEVideoEd-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					/Users/edit/Documents/Apps/BiologyiGCSEVideo,
+				);
+				PRODUCT_NAME = Edexcel;
+				PROVISIONING_PROFILE = "1E4FE5BF-DCB6-48F9-829C-C355C856B0C5";
+				TARGETED_DEVICE_FAMILY = 2;
+				VALID_ARCHS = armv7;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		CD02919318B758FA002EC7D8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/BiologyiGCSEVideo.app/BiologyiGCSEVideo";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BiologyiGCSEVideo/BiologyiGCSEVideo-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "BiologyiGCSEVideoTests/BiologyiGCSEVideoEdTests-Info.plist";
+				PRODUCT_NAME = BiologyiGCSEVideoEdTests;
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		CD02919418B758FA002EC7D8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/BiologyiGCSEVideo.app/BiologyiGCSEVideo";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BiologyiGCSEVideo/BiologyiGCSEVideo-Prefix.pch";
+				INFOPLIST_FILE = "BiologyiGCSEVideoTests/BiologyiGCSEVideoEdTests-Info.plist";
+				PRODUCT_NAME = BiologyiGCSEVideoEdTests;
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CD02915818B758FA002EC7D8 /* Build configuration list for PBXProject "BiologyiGCSEVideoEd" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD02918D18B758FA002EC7D8 /* Debug */,
+				CD02918E18B758FA002EC7D8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CD02918F18B758FA002EC7D8 /* Build configuration list for PBXNativeTarget "BiologyiGCSEVideoEd" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD02919018B758FA002EC7D8 /* Debug */,
+				CD02919118B758FA002EC7D8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CD02919218B758FA002EC7D8 /* Build configuration list for PBXNativeTarget "BiologyiGCSEVideoEdTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD02919318B758FA002EC7D8 /* Debug */,
+				CD02919418B758FA002EC7D8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CD02915518B758FA002EC7D8 /* Project object */;
+}
