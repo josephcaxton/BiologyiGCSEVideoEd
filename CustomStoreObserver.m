@@ -440,7 +440,7 @@
     NSURL *url = [NSURL URLWithString:queryString];
     NSMutableURLRequest *req = [NSMutableURLRequest requestWithURL:url];
     
-    VerificationAppID = @"69"; //Biology iGCSE Edexcel iPad
+    VerificationAppID = @"13"; //Biology iGCSE Edexcel iPad on the server is value is looking for entry in appstatus.xml
     
     NSString *FullString = [NSString stringWithFormat:@"productIdentifier=%@&DeviceID=%@&days=%@&transactionIdentifier=%@&B64receipt=%@&email=%@&password=%@&AppID=%@",FinalProductID,MyDeviceId,SubscriptionInDays,TransactionID,EncodedReceipt,EmailAddress,Password,VerificationAppID];
         
