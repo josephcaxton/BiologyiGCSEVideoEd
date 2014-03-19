@@ -647,8 +647,8 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_ENTITLEMENTS = BiologyiGCSEVideoEd.entitlements;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Developer: Joseph caxton (99S98QLWW3)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Joseph caxton (99S98QLWW3)";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "BiologyiGCSEVideo/BiologyiGCSEVideoEd-Prefix.pch";
 				INFOPLIST_FILE = "BiologyiGCSEVideo/BiologyiGCSEVideoEd-Info.plist";
@@ -659,7 +659,7 @@
 					/Users/edit/Documents/Apps/BiologyiGCSEVideoEd,
 				);
 				PRODUCT_NAME = Edexcel;
-				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE = "F1923D6A-5C49-4E2F-AFAE-10ECC1B2DF21";
 				TARGETED_DEVICE_FAMILY = 2;
 				VALID_ARCHS = armv7;
 				WRAPPER_EXTENSION = app;
@@ -672,8 +672,8 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_ENTITLEMENTS = BiologyiGCSEVideoEd.entitlements;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Theta Computer Services Limited (9RNCM436XC)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Theta Computer Services Limited (9RNCM436XC)";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "BiologyiGCSEVideo/BiologyiGCSEVideoEd-Prefix.pch";
 				INFOPLIST_FILE = "BiologyiGCSEVideo/BiologyiGCSEVideoEd-Info.plist";
@@ -684,7 +684,7 @@
 					/Users/edit/Documents/Apps/BiologyiGCSEVideoEd,
 				);
 				PRODUCT_NAME = Edexcel;
-				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE = "990D2A1E-7A0C-4F68-A65C-7CFE0BFDB3F2";
 				TARGETED_DEVICE_FAMILY = 2;
 				VALID_ARCHS = armv7;
 				WRAPPER_EXTENSION = app;
