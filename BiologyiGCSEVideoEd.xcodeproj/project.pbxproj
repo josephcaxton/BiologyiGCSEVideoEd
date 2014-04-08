@@ -656,6 +656,7 @@
 					/Users/edit/Documents/Apps/BiologyiGCSEVideo,
 					/Users/edit/Documents/Apps/BiologyiGCSEVideoEd,
 				);
+				ONLY_ACTIVE_ARCH = NO;
 				PRODUCT_NAME = Edexcel;
 				PROVISIONING_PROFILE = "F1923D6A-5C49-4E2F-AFAE-10ECC1B2DF21";
 				TARGETED_DEVICE_FAMILY = 2;
@@ -681,6 +682,7 @@
 					/Users/edit/Documents/Apps/BiologyiGCSEVideo,
 					/Users/edit/Documents/Apps/BiologyiGCSEVideoEd,
 				);
+				ONLY_ACTIVE_ARCH = NO;
 				PRODUCT_NAME = Edexcel;
 				PROVISIONING_PROFILE = "990D2A1E-7A0C-4F68-A65C-7CFE0BFDB3F2";
 				TARGETED_DEVICE_FAMILY = 2;
