@@ -7,17 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7CCBA1AF19E19EFF006D1F79 /* libfacebook_ios_sdk.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CDC318CA18C8E0B500F6DF53 /* libfacebook_ios_sdk.a */; };
 		CD02916118B758FA002EC7D8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD02916018B758FA002EC7D8 /* Foundation.framework */; };
 		CD02916318B758FA002EC7D8 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD02916218B758FA002EC7D8 /* CoreGraphics.framework */; };
 		CD02916518B758FA002EC7D8 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD02916418B758FA002EC7D8 /* UIKit.framework */; };
 		CD02916B18B758FA002EC7D8 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CD02916918B758FA002EC7D8 /* InfoPlist.strings */; };
 		CD02916D18B758FA002EC7D8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CD02916C18B758FA002EC7D8 /* main.m */; };
 		CD02917918B758FA002EC7D8 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CD02917818B758FA002EC7D8 /* Images.xcassets */; };
-		CD02918018B758FA002EC7D8 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD02917F18B758FA002EC7D8 /* XCTest.framework */; };
-		CD02918118B758FA002EC7D8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD02916018B758FA002EC7D8 /* Foundation.framework */; };
-		CD02918218B758FA002EC7D8 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD02916418B758FA002EC7D8 /* UIKit.framework */; };
-		CD02918A18B758FA002EC7D8 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CD02918818B758FA002EC7D8 /* InfoPlist.strings */; };
-		CD02918C18B758FA002EC7D8 /* BiologyiGCSEVideoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CD02918B18B758FA002EC7D8 /* BiologyiGCSEVideoTests.m */; };
 		CD02919718B76052002EC7D8 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = CD02919618B76052002EC7D8 /* MainWindow.xib */; };
 		CD02919A18B7607A002EC7D8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CD02919918B7607A002EC7D8 /* AppDelegate.m */; };
 		CD0291A318B7608C002EC7D8 /* TabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = CD02919C18B7608C002EC7D8 /* TabBar.m */; };
@@ -55,18 +51,7 @@
 		CD0291FA18B772B5002EC7D8 /* libGoogleAnalytics.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CD0291F918B772B5002EC7D8 /* libGoogleAnalytics.a */; };
 		CDC09E0518BBA5E200CD3629 /* PopUpTableviewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CDC09E0418BBA5E200CD3629 /* PopUpTableviewViewController.m */; };
 		CDC318D118C8E0B500F6DF53 /* FBDialog.bundle in Resources */ = {isa = PBXBuildFile; fileRef = CDC318C418C8E0B500F6DF53 /* FBDialog.bundle */; };
-		CDC318D218C8E0B500F6DF53 /* libfacebook_ios_sdk.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CDC318CA18C8E0B500F6DF53 /* libfacebook_ios_sdk.a */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		CD02918318B758FA002EC7D8 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = CD02915518B758FA002EC7D8 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = CD02915C18B758FA002EC7D8;
-			remoteInfo = BiologyiGCSEVideo;
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		CD02915D18B758FA002EC7D8 /* Edexcel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Edexcel.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -78,11 +63,6 @@
 		CD02916C18B758FA002EC7D8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		CD02916E18B758FA002EC7D8 /* BiologyiGCSEVideoEd-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BiologyiGCSEVideoEd-Prefix.pch"; sourceTree = "<group>"; };
 		CD02917818B758FA002EC7D8 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		CD02917E18B758FA002EC7D8 /* BiologyiGCSEVideoEdTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BiologyiGCSEVideoEdTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		CD02917F18B758FA002EC7D8 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
-		CD02918718B758FA002EC7D8 /* BiologyiGCSEVideoEdTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BiologyiGCSEVideoEdTests-Info.plist"; sourceTree = "<group>"; };
-		CD02918918B758FA002EC7D8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		CD02918B18B758FA002EC7D8 /* BiologyiGCSEVideoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BiologyiGCSEVideoTests.m; sourceTree = "<group>"; };
 		CD02919618B76052002EC7D8 /* MainWindow.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainWindow.xib; sourceTree = "<group>"; };
 		CD02919818B7607A002EC7D8 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		CD02919918B7607A002EC7D8 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -166,11 +146,11 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7CCBA1AF19E19EFF006D1F79 /* libfacebook_ios_sdk.a in Frameworks */,
 				CD02916318B758FA002EC7D8 /* CoreGraphics.framework in Frameworks */,
 				CD0291F618B76416002EC7D8 /* SystemConfiguration.framework in Frameworks */,
 				CD0291F418B76408002EC7D8 /* MediaPlayer.framework in Frameworks */,
 				CD0291F218B763F6002EC7D8 /* StoreKit.framework in Frameworks */,
-				CDC318D218C8E0B500F6DF53 /* libfacebook_ios_sdk.a in Frameworks */,
 				CD0291F018B763EB002EC7D8 /* MessageUI.framework in Frameworks */,
 				CD0291EE18B763DE002EC7D8 /* CFNetwork.framework in Frameworks */,
 				CD0291EC18B763CA002EC7D8 /* AVFoundation.framework in Frameworks */,
@@ -178,16 +158,6 @@
 				CD02916518B758FA002EC7D8 /* UIKit.framework in Frameworks */,
 				CD0291FA18B772B5002EC7D8 /* libGoogleAnalytics.a in Frameworks */,
 				CD02916118B758FA002EC7D8 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		CD02917B18B758FA002EC7D8 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				CD02918018B758FA002EC7D8 /* XCTest.framework in Frameworks */,
-				CD02918218B758FA002EC7D8 /* UIKit.framework in Frameworks */,
-				CD02918118B758FA002EC7D8 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -206,7 +176,6 @@
 				CD0291A718B761A7002EC7D8 /* ClientSideClasses */,
 				CD02919518B75FC7002EC7D8 /* Main Window */,
 				CD02916618B758FA002EC7D8 /* BiologyiGCSEVideo */,
-				CD02918518B758FA002EC7D8 /* BiologyiGCSEVideoTests */,
 				CD02915F18B758FA002EC7D8 /* Frameworks */,
 				CD02915E18B758FA002EC7D8 /* Products */,
 			);
@@ -216,7 +185,6 @@
 			isa = PBXGroup;
 			children = (
 				CD02915D18B758FA002EC7D8 /* Edexcel.app */,
-				CD02917E18B758FA002EC7D8 /* BiologyiGCSEVideoEdTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -236,7 +204,6 @@
 				CD02916018B758FA002EC7D8 /* Foundation.framework */,
 				CD02916218B758FA002EC7D8 /* CoreGraphics.framework */,
 				CD02916418B758FA002EC7D8 /* UIKit.framework */,
-				CD02917F18B758FA002EC7D8 /* XCTest.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -257,24 +224,6 @@
 				CD02916918B758FA002EC7D8 /* InfoPlist.strings */,
 				CD02916C18B758FA002EC7D8 /* main.m */,
 				CD02916E18B758FA002EC7D8 /* BiologyiGCSEVideoEd-Prefix.pch */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		CD02918518B758FA002EC7D8 /* BiologyiGCSEVideoTests */ = {
-			isa = PBXGroup;
-			children = (
-				CD02918B18B758FA002EC7D8 /* BiologyiGCSEVideoTests.m */,
-				CD02918618B758FA002EC7D8 /* Supporting Files */,
-			);
-			path = BiologyiGCSEVideoTests;
-			sourceTree = "<group>";
-		};
-		CD02918618B758FA002EC7D8 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				CD02918718B758FA002EC7D8 /* BiologyiGCSEVideoEdTests-Info.plist */,
-				CD02918818B758FA002EC7D8 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -414,24 +363,6 @@
 			productReference = CD02915D18B758FA002EC7D8 /* Edexcel.app */;
 			productType = "com.apple.product-type.application";
 		};
-		CD02917D18B758FA002EC7D8 /* BiologyiGCSEVideoEdTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = CD02919218B758FA002EC7D8 /* Build configuration list for PBXNativeTarget "BiologyiGCSEVideoEdTests" */;
-			buildPhases = (
-				CD02917A18B758FA002EC7D8 /* Sources */,
-				CD02917B18B758FA002EC7D8 /* Frameworks */,
-				CD02917C18B758FA002EC7D8 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				CD02918418B758FA002EC7D8 /* PBXTargetDependency */,
-			);
-			name = BiologyiGCSEVideoEdTests;
-			productName = BiologyiGCSEVideoTests;
-			productReference = CD02917E18B758FA002EC7D8 /* BiologyiGCSEVideoEdTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -449,9 +380,6 @@
 							};
 						};
 					};
-					CD02917D18B758FA002EC7D8 = {
-						TestTargetID = CD02915C18B758FA002EC7D8;
-					};
 				};
 			};
 			buildConfigurationList = CD02915818B758FA002EC7D8 /* Build configuration list for PBXProject "BiologyiGCSEVideoEd" */;
@@ -468,7 +396,6 @@
 			projectRoot = "";
 			targets = (
 				CD02915C18B758FA002EC7D8 /* BiologyiGCSEVideoEd */,
-				CD02917D18B758FA002EC7D8 /* BiologyiGCSEVideoEdTests */,
 			);
 		};
 /* End PBXProject section */
@@ -486,14 +413,6 @@
 				CD0291E018B76218002EC7D8 /* LearnersCloudTermsonapps.pdf in Resources */,
 				CD0291E418B76370002EC7D8 /* Biology-Edexcel-IGCSE.pdf in Resources */,
 				CDC318D118C8E0B500F6DF53 /* FBDialog.bundle in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		CD02917C18B758FA002EC7D8 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				CD02918A18B758FA002EC7D8 /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -531,37 +450,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		CD02917A18B758FA002EC7D8 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				CD02918C18B758FA002EC7D8 /* BiologyiGCSEVideoTests.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		CD02918418B758FA002EC7D8 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = CD02915C18B758FA002EC7D8 /* BiologyiGCSEVideoEd */;
-			targetProxy = CD02918318B758FA002EC7D8 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		CD02916918B758FA002EC7D8 /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
 				CD02916A18B758FA002EC7D8 /* en */,
-			);
-			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-		CD02918818B758FA002EC7D8 /* InfoPlist.strings */ = {
-			isa = PBXVariantGroup;
-			children = (
-				CD02918918B758FA002EC7D8 /* en */,
 			);
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
@@ -653,12 +548,11 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
-					/Users/edit/Documents/Apps/BiologyiGCSEVideo,
-					/Users/edit/Documents/Apps/BiologyiGCSEVideoEd,
+					"$(PROJECT_DIR)",
 				);
 				ONLY_ACTIVE_ARCH = NO;
 				PRODUCT_NAME = Edexcel;
-				PROVISIONING_PROFILE = "F1923D6A-5C49-4E2F-AFAE-10ECC1B2DF21";
+				PROVISIONING_PROFILE = "";
 				TARGETED_DEVICE_FAMILY = 2;
 				VALID_ARCHS = armv7;
 				WRAPPER_EXTENSION = app;
@@ -679,55 +573,14 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
-					/Users/edit/Documents/Apps/BiologyiGCSEVideo,
-					/Users/edit/Documents/Apps/BiologyiGCSEVideoEd,
+					"$(PROJECT_DIR)",
 				);
 				ONLY_ACTIVE_ARCH = NO;
 				PRODUCT_NAME = Edexcel;
-				PROVISIONING_PROFILE = "990D2A1E-7A0C-4F68-A65C-7CFE0BFDB3F2";
+				PROVISIONING_PROFILE = "";
 				TARGETED_DEVICE_FAMILY = 2;
 				VALID_ARCHS = armv7;
 				WRAPPER_EXTENSION = app;
-			};
-			name = Release;
-		};
-		CD02919318B758FA002EC7D8 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/BiologyiGCSEVideo.app/BiologyiGCSEVideo";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-					"$(DEVELOPER_FRAMEWORKS_DIR)",
-				);
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "BiologyiGCSEVideo/BiologyiGCSEVideo-Prefix.pch";
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = "BiologyiGCSEVideoTests/BiologyiGCSEVideoEdTests-Info.plist";
-				PRODUCT_NAME = BiologyiGCSEVideoEdTests;
-				TEST_HOST = "$(BUNDLE_LOADER)";
-				WRAPPER_EXTENSION = xctest;
-			};
-			name = Debug;
-		};
-		CD02919418B758FA002EC7D8 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/BiologyiGCSEVideo.app/BiologyiGCSEVideo";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-					"$(DEVELOPER_FRAMEWORKS_DIR)",
-				);
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "BiologyiGCSEVideo/BiologyiGCSEVideo-Prefix.pch";
-				INFOPLIST_FILE = "BiologyiGCSEVideoTests/BiologyiGCSEVideoEdTests-Info.plist";
-				PRODUCT_NAME = BiologyiGCSEVideoEdTests;
-				TEST_HOST = "$(BUNDLE_LOADER)";
-				WRAPPER_EXTENSION = xctest;
 			};
 			name = Release;
 		};
@@ -748,15 +601,6 @@
 			buildConfigurations = (
 				CD02919018B758FA002EC7D8 /* Debug */,
 				CD02919118B758FA002EC7D8 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		CD02919218B758FA002EC7D8 /* Build configuration list for PBXNativeTarget "BiologyiGCSEVideoEdTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				CD02919318B758FA002EC7D8 /* Debug */,
-				CD02919418B758FA002EC7D8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
